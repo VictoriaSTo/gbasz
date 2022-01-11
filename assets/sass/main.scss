@@ -148,6 +148,18 @@
 		line-height: 1.75em;
 	}
 
+	/* Logo */
+	#logo-image {
+		width: 424px; 
+		margin-top: -8px
+	}
+
+	@media screen and (max-width: 980px) {
+		#logo-image {
+			width: 180px; 
+		}
+	}
+
 	a {
 		@include vendor('transition', ('border-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
 		border-bottom: dotted 1px;

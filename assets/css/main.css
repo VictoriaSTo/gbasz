@@ -33,6 +33,18 @@ body {
 	line-height: 1;
 }
 
+/* Logo */
+#logo-image {
+	width: 424px; 
+	margin-top: -8px
+}
+
+@media screen and (max-width: 980px) {
+	#logo-image {
+		width: 180px; 
+	}
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3905,7 +3917,7 @@ input, select, textarea {
 						border: 0;
 					}
 
-				#titleBar .toggle {
+				/* #titleBar .toggle {
 					text-decoration: none;
 					height: 60px;
 					left: 0;
@@ -3927,8 +3939,8 @@ input, select, textarea {
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
-					}
-
+					} */
+/* 
 					#titleBar .toggle:before {
 						background: #e44c65;
 						color: rgba(255, 255, 255, 0.5);
@@ -3942,7 +3954,7 @@ input, select, textarea {
 						text-align: center;
 						top: 0;
 						width: 54px;
-					}
+					} */
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
